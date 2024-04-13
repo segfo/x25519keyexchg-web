@@ -191,11 +191,11 @@ pub fn KeyExchange(props: &AppProps) -> Html {
         <>
         <div class="input-field">
             <input id="pubkey" type="text" placeholder="ここをクリックすると公開鍵が生成され、クリップボードにコピーされます。" readonly=true onclick={generate_pubkey.clone()} />
-            <label for="pubkey">{"送付用の鍵（生成済みの場合はクリックするとコピーされます。先方に送ってください）"}</label>
+            <label for="pubkey">{"先方に送付するパスワード連携用の鍵（生成済みの場合はクリックするとコピーされます。）"}</label>
         </div>
         <div class="input-field">
-            <input id="shared_pubkey" type="text" placeholder="先方から共有された公開鍵を入力してください" onkeyup={input_pubkey.clone()} />
-            <label for="shared_pubkey">{"先方から送られた送付用の鍵"}</label>
+            <input id="shared_pubkey" type="text" placeholder="ファイル受信者から共有された公開鍵を入力してください" onkeyup={input_pubkey.clone()} />
+            <label for="shared_pubkey">{"先方から送られてきた共通パスワード連携用の鍵"}</label>
         </div>
         <label class="shared_key_message_label">{"先方と共有したファイル開封用の鍵は以下の通りです"}</label><br/>
         <label id="shared_key" class="shared_key"></label><br/>
