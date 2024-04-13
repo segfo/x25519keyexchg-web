@@ -1,0 +1,3335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:6d3891a5-89d1-4e54-955c-e8e5b3b5325e" version="1">
+  <metadata>
+    <timestamp>2024-04-13T04:12:43.412628400Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>CycloneDX</vendor>
+        <name>cargo-cyclonedx</name>
+        <version>0.5.0</version>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="keyexchg 1.0.0 (path+file:///D:/Users/segfo/Documents/vmShare/testCodes/keyxchg)">
+      <name>keyexchg</name>
+      <version>1.0.0</version>
+      <scope>required</scope>
+      <purl>pkg:cargo/keyexchg@1.0.0?download_url=file%3A%2F%2F.</purl>
+      <components>
+        <component type="library" bom-ref="keyexchg 1.0.0 (path+file:///D:/Users/segfo/Documents/vmShare/testCodes/keyxchg) bin-target-0">
+          <name>keyexchg</name>
+          <version>1.0.0</version>
+          <purl>pkg:cargo/keyexchg@1.0.0?download_url=file%3A%2F%2F.#src/lib.rs</purl>
+        </component>
+      </components>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="anstream 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anstream</name>
+      <version>0.6.4</version>
+      <description>A simple cross platform library for writing colored text to a terminal.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anstream@0.6.4</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="anstyle 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anstyle</name>
+      <version>1.0.4</version>
+      <description>ANSI text styling</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anstyle@1.0.4</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="anstyle-parse 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anstyle-parse</name>
+      <version>0.2.2</version>
+      <description>Parse ANSI Style Escapes</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anstyle-parse@0.2.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="anstyle-query 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anstyle-query</name>
+      <version>1.0.0</version>
+      <description>Look up colored console capabilities</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anstyle-query@1.0.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="anstyle-wincon 3.0.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anstyle-wincon</name>
+      <version>3.0.1</version>
+      <description>Styling legacy Windows terminals</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anstyle-wincon@3.0.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="anymap2 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>anymap2</name>
+      <version>0.13.0</version>
+      <description>A safe and convenient store for one value of each type</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/anymap2@0.13.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/anymap2</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/azriel91/anymap2</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="autocfg 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>autocfg</name>
+      <version>1.1.0</version>
+      <description>Automatic cfg for Rust compiler features</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/autocfg@1.1.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/cuviper/autocfg</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="base64 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>base64</name>
+      <version>0.22.0</version>
+      <description>encodes and decodes base64 as bytes or utf8</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/base64@0.22.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/base64</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/marshallpierce/rust-base64</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="bincode 1.3.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>bincode</name>
+      <version>1.3.3</version>
+      <description>A binary serialization / deserialization strategy that uses Serde for transforming structs into bytes and vice versa!</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/bincode@1.3.3</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/bincode</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/servo/bincode</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>boolinator</name>
+      <version>2.4.0</version>
+      <description>Provides the Boolinator trait, which lets you use Option and Result-style combinators with bools.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/boolinator@2.4.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://danielkeep.github.io/rust-boolinator/doc/boolinator/index.html</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/DanielKeep/rust-boolinator</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="bumpalo 3.14.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>bumpalo</name>
+      <version>3.14.0</version>
+      <description>A fast bump allocation arena for Rust.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/bumpalo@3.14.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/bumpalo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/fitzgen/bumpalo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="bytes 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>bytes</name>
+      <version>1.5.0</version>
+      <description>Types and traits for working with bytes</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/bytes@1.5.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/bytes</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>cfg-if</name>
+      <version>1.0.0</version>
+      <description>A macro to ergonomically define an item depending on a large number of #[cfg] parameters. Structured like an if-else chain, the first matching branch is the item that gets emitted. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/cfg-if@1.0.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/cfg-if</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/alexcrichton/cfg-if</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/alexcrichton/cfg-if</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="chrono 0.4.31 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>chrono</name>
+      <version>0.4.31</version>
+      <description>Date and time library for Rust</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/chrono@0.4.31</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/chrono/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/chronotope/chrono</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/chronotope/chrono</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="clap 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>clap</name>
+      <version>4.4.8</version>
+      <description>A simple to use, efficient, and full-featured Command Line Argument Parser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/clap@4.4.8</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/clap-rs/clap</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="clap_builder 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>clap_builder</name>
+      <version>4.4.8</version>
+      <description>A simple to use, efficient, and full-featured Command Line Argument Parser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/clap_builder@4.4.8</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/clap-rs/clap</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="clap_derive 4.4.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>clap_derive</name>
+      <version>4.4.7</version>
+      <description>Parse command line argument by defining a struct, derive crate.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/clap_derive@4.4.7</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/clap-rs/clap/tree/master/clap_derive</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="clap_lex 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>clap_lex</name>
+      <version>0.6.0</version>
+      <description>Minimal, flexible command line parser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/clap_lex@0.6.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/clap-rs/clap/tree/master/clap_lex</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="colorchoice 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>colorchoice</name>
+      <version>1.0.0</version>
+      <description>Global override of color control</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/colorchoice@1.0.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rust-cli/anstyle</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="console_error_panic_hook 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>console_error_panic_hook</name>
+      <version>0.1.7</version>
+      <description>A panic hook for `wasm32-unknown-unknown` that logs panics to `console.error`</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/console_error_panic_hook@0.1.7</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/console_error_panic_hook</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="cpufeatures 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>cpufeatures</name>
+      <version>0.2.12</version>
+      <description>Lightweight runtime CPU feature detection for aarch64, loongarch64, and x86/x86_64 targets,  with no_std support and support for mobile targets including Android and iOS </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/cpufeatures@0.2.12</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/cpufeatures</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RustCrypto/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="curve25519-dalek 4.1.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>curve25519-dalek</name>
+      <version>4.1.2</version>
+      <description>A pure-Rust implementation of group operations on ristretto255 and Curve25519</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>BSD-3-Clause</expression>
+      </licenses>
+      <purl>pkg:cargo/curve25519-dalek@4.1.2</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/curve25519-dalek</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek/tree/main/curve25519-dalek</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="curve25519-dalek-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>curve25519-dalek-derive</name>
+      <version>0.1.1</version>
+      <description>curve25519-dalek Derives</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/curve25519-dalek-derive@0.1.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/curve25519-dalek-derive</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="equivalent 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>equivalent</name>
+      <version>1.0.1</version>
+      <description>Traits for key comparison in maps.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/equivalent@1.0.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/cuviper/equivalent</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="fnv 1.0.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>fnv</name>
+      <version>1.0.7</version>
+      <description>Fowler–Noll–Vo hash function</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0  OR  MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/fnv@1.0.7</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://doc.servo.org/fnv/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/servo/rust-fnv</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="form_urlencoded 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>form_urlencoded</name>
+      <version>1.2.1</version>
+      <description>Parser and serializer for the application/x-www-form-urlencoded syntax, as used by HTML forms.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/form_urlencoded@1.2.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/servo/rust-url</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures</name>
+      <version>0.3.29</version>
+      <description>An implementation of futures and streams featuring zero allocations, composability, and iterator-like interfaces. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-channel</name>
+      <version>0.3.29</version>
+      <description>Channels for asynchronous communication using futures-rs. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-channel@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-core</name>
+      <version>0.3.29</version>
+      <description>The core traits and types in for the `futures` library. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-core@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-io 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-io</name>
+      <version>0.3.29</version>
+      <description>The `AsyncRead`, `AsyncWrite`, `AsyncSeek`, and `AsyncBufRead` traits for the futures-rs library. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-io@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-macro 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-macro</name>
+      <version>0.3.29</version>
+      <description>The futures-rs procedural macro implementations. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-macro@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-sink</name>
+      <version>0.3.29</version>
+      <description>The asynchronous `Sink` trait for the futures-rs library. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-sink@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-task 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-task</name>
+      <version>0.3.29</version>
+      <description>Tools for working with tasks. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-task@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="futures-util 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>futures-util</name>
+      <version>0.3.29</version>
+      <description>Common utilities and extension traits for the futures-rs library. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/futures-util@0.3.29</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rust-lang.github.io/futures-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/futures-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="getrandom 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>getrandom</name>
+      <version>0.2.11</version>
+      <description>A small cross-platform library for retrieving random data from system source</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/getrandom@0.2.11</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/getrandom</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-random/getrandom</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo</name>
+      <version>0.10.0</version>
+      <description>A modular toolkit for Rust and WebAssembly</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo@0.10.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/gloo/</url>
+        </reference>
+        <reference type="website">
+          <url>https://gloo-rs.web.app/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo</name>
+      <version>0.8.1</version>
+      <description>A modular toolkit for Rust and WebAssembly</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo@0.8.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/gloo/</url>
+        </reference>
+        <reference type="website">
+          <url>https://gloo-rs.web.app/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-console 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-console</name>
+      <version>0.2.3</version>
+      <description>Convenience crate for working with browser's console</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-console@0.2.3</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/gloo-console/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/console</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-console 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-console</name>
+      <version>0.3.0</version>
+      <description>Convenience crate for working with browser's console</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-console@0.3.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/gloo-console/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/console</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-dialogs 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-dialogs</name>
+      <version>0.1.1</version>
+      <description>Convenience crate for working with dialogs in browser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-dialogs@0.1.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/dialogs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-dialogs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-dialogs</name>
+      <version>0.2.0</version>
+      <description>Convenience crate for working with dialogs in browser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-dialogs@0.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/dialogs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-events 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-events</name>
+      <version>0.1.2</version>
+      <description>Convenience crate for working with DOM event listeners</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-events@0.1.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/events</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-events 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-events</name>
+      <version>0.2.0</version>
+      <description>Convenience crate for working with DOM event listeners</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-events@0.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/events</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-file 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-file</name>
+      <version>0.2.3</version>
+      <description>Convenience crate for working with JavaScript files and blobs</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-file@0.2.3</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/file</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-file 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-file</name>
+      <version>0.3.0</version>
+      <description>Convenience crate for working with JavaScript files and blobs</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-file@0.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/file</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-history 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-history</name>
+      <version>0.1.5</version>
+      <description>Universal Session History</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-history@0.1.5</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/history</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-history 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-history</name>
+      <version>0.2.1</version>
+      <description>Universal Session History</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-history@0.2.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/history</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-net 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-net</name>
+      <version>0.2.6</version>
+      <description>HTTP requests library for WASM Apps</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-net@0.2.6</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-net 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-net</name>
+      <version>0.3.1</version>
+      <description>HTTP requests library for WASM Apps</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-net@0.3.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-net 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-net</name>
+      <version>0.4.0</version>
+      <description>HTTP requests library for WASM Apps</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-net@0.4.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-render 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-render</name>
+      <version>0.1.1</version>
+      <description>Convenience crate for working with browser's requestAnimationFrame</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-render@0.1.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/storage</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-render 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-render</name>
+      <version>0.2.0</version>
+      <description>Convenience crate for working with browser's requestAnimationFrame</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-render@0.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/storage</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-storage 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-storage</name>
+      <version>0.2.2</version>
+      <description>Convenience crate for working with local and session storage in browser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-storage@0.2.2</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/storage</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-storage 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-storage</name>
+      <version>0.3.0</version>
+      <description>Convenience crate for working with local and session storage in browser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-storage@0.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/storage</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-timers 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-timers</name>
+      <version>0.2.6</version>
+      <description>Convenience crate for working with JavaScript timers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-timers@0.2.6</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/timers</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-timers 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-timers</name>
+      <version>0.3.0</version>
+      <description>Convenience crate for working with JavaScript timers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-timers@0.3.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/timers</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-utils</name>
+      <version>0.1.7</version>
+      <description>Convenience crate for common `web_sys` features</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-utils@0.1.7</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-utils</name>
+      <version>0.2.0</version>
+      <description>Convenience crate for common `web_sys` features</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-utils@0.2.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-worker 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-worker</name>
+      <version>0.2.1</version>
+      <description>Convenience crate for working with Web Workers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-worker@0.2.1</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/worker</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-worker 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-worker</name>
+      <version>0.4.0</version>
+      <description>Convenience crate for working with Web Workers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-worker@0.4.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/worker</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="gloo-worker-macros 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>gloo-worker-macros</name>
+      <version>0.1.0</version>
+      <description>Convenience crate for working with Web Workers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/gloo-worker-macros@0.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/rustwasm/gloo</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/gloo/tree/master/crates/worker</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="hashbrown 0.14.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>hashbrown</name>
+      <version>0.14.2</version>
+      <description>A Rust port of Google's SwissTable hash map</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/hashbrown@0.14.2</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/hashbrown</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="heck 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>heck</name>
+      <version>0.3.3</version>
+      <description>heck is a case conversion library.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/heck@0.3.3</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/heck</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/withoutboats/heck</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/withoutboats/heck</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="heck 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>heck</name>
+      <version>0.4.1</version>
+      <description>heck is a case conversion library.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/heck@0.4.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/heck</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/withoutboats/heck</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/withoutboats/heck</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="http 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>http</name>
+      <version>0.2.10</version>
+      <description>A set of types for representing HTTP requests and responses. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/http@0.2.10</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/http</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/hyperium/http</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="idna 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>idna</name>
+      <version>0.5.0</version>
+      <description>IDNA (Internationalizing Domain Names in Applications) and Punycode.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/idna@0.5.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/servo/rust-url/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="implicit-clone 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>implicit-clone</name>
+      <version>0.3.6</version>
+      <description>Immutable types and ImplicitClone trait similar to Copy</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/implicit-clone@0.3.6</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/implicit-clone</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/yewstack/implicit-clone</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/yewstack/implicit-clone</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="implicit-clone 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>implicit-clone</name>
+      <version>0.4.6</version>
+      <description>Immutable types and ImplicitClone trait similar to Copy</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/implicit-clone@0.4.6</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/implicit-clone</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/yewstack/implicit-clone</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/yewstack/implicit-clone</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="indexmap 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>indexmap</name>
+      <version>2.1.0</version>
+      <description>A hash table with consistent order and fast iteration.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/indexmap@2.1.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/indexmap/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/bluss/indexmap</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="itoa 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>itoa</name>
+      <version>1.0.9</version>
+      <description>Fast integer primitive to string conversion</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/itoa@1.0.9</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/itoa</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/itoa</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>js-sys</name>
+      <version>0.3.65</version>
+      <description>Bindings for all JS global objects and functions in all JS environments like Node.js and browsers, built on `#[wasm_bindgen]` using the `wasm-bindgen` crate. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/js-sys@0.3.65</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/js-sys</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/js-sys</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>log</name>
+      <version>0.4.20</version>
+      <description>A lightweight logging facade for Rust </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/log@0.4.20</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/log</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang/log</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="memchr 2.6.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>memchr</name>
+      <version>2.6.4</version>
+      <description>Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for 1, 2 or 3 byte search and single substring search. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Unlicense OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/memchr@2.6.4</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/memchr/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/BurntSushi/memchr</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/BurntSushi/memchr</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="num-traits 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>num-traits</name>
+      <version>0.2.17</version>
+      <description>Numeric traits for generic mathematics</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/num-traits@0.2.17</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/num-traits</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/rust-num/num-traits</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-num/num-traits</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="num_cpus 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>num_cpus</name>
+      <version>1.16.0</version>
+      <description>Get the number of CPUs on a machine.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/num_cpus@1.16.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/num_cpus</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/seanmonstar/num_cpus</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>once_cell</name>
+      <version>1.18.0</version>
+      <description>Single assignment cells and lazy values.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/once_cell@1.18.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/once_cell</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/matklad/once_cell</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="percent-encoding 2.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>percent-encoding</name>
+      <version>2.3.1</version>
+      <description>Percent encoding and decoding</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/percent-encoding@2.3.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/servo/rust-url/</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>pin-project</name>
+      <version>1.1.3</version>
+      <description>A crate for safe and ergonomic pin-projection. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/pin-project@1.1.3</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/taiki-e/pin-project</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pin-project-internal 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>pin-project-internal</name>
+      <version>1.1.3</version>
+      <description>Implementation detail of the `pin-project` crate. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/pin-project-internal@1.1.3</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/taiki-e/pin-project</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>pin-project-lite</name>
+      <version>0.2.13</version>
+      <description>A lightweight version of pin-project written with declarative macros. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/pin-project-lite@0.2.13</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/taiki-e/pin-project-lite</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pin-utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>pin-utils</name>
+      <version>0.1.0</version>
+      <description>Utilities for pinning </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/pin-utils@0.1.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/pin-utils</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-lang-nursery/pin-utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pinned 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>pinned</name>
+      <version>0.1.0</version>
+      <description>Synchronisation primitives for !Send tasks.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/pinned@0.1.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/futursolo/pinned</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/futursolo/pinned</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="platforms 3.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>platforms</name>
+      <version>3.4.0</version>
+      <description>Rust platform registry with information about valid Rust platforms (target triple, target_arch, target_os) sourced from the Rust compiler. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/platforms@3.4.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://rustsec.org</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustsec/rustsec/tree/main/platforms</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="ppv-lite86 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>ppv-lite86</name>
+      <version>0.2.17</version>
+      <description>Implementation of the crypto-simd API for x86</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/ppv-lite86@0.2.17</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/cryptocorrosion/cryptocorrosion</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="prettyplease 0.2.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>prettyplease</name>
+      <version>0.2.15</version>
+      <description>A minimal `syn` syntax tree pretty-printer</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/prettyplease@0.2.15</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/prettyplease</url>
+        </reference>
+        <reference type="other">
+          <url>prettyplease02</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/prettyplease</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="proc-macro-crate 1.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>proc-macro-crate</name>
+      <version>1.3.1</version>
+      <description>Replacement for crate (macro_rules keyword) in proc-macros </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/proc-macro-crate@1.3.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/proc-macro-crate</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/bkchr/proc-macro-crate</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="proc-macro-error 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>proc-macro-error</name>
+      <version>1.0.4</version>
+      <description>Almost drop-in replacement to panics in proc-macros</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/proc-macro-error@1.0.4</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://gitlab.com/CreepySkeleton/proc-macro-error</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="proc-macro-error-attr 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>proc-macro-error-attr</name>
+      <version>1.0.4</version>
+      <description>Attribute macro for proc-macro-error crate</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/proc-macro-error-attr@1.0.4</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://gitlab.com/CreepySkeleton/proc-macro-error</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>proc-macro2</name>
+      <version>1.0.69</version>
+      <description>A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/proc-macro2@1.0.69</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/proc-macro2</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/proc-macro2</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="prokio 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>prokio</name>
+      <version>0.1.0</version>
+      <description>An asynchronous runtime compatible with WebAssembly and non-WebAssembly targets.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/prokio@0.1.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/futursolo/prokio</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>quote</name>
+      <version>1.0.33</version>
+      <description>Quasi-quoting macro quote!(...)</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/quote@1.0.33</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/quote/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/quote</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="rand 0.8.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>rand</name>
+      <version>0.8.5</version>
+      <description>Random number generators and other randomness functionality. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/rand@0.8.5</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/rand</url>
+        </reference>
+        <reference type="website">
+          <url>https://rust-random.github.io/book</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-random/rand</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="rand_chacha 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>rand_chacha</name>
+      <version>0.3.1</version>
+      <description>ChaCha random number generator </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/rand_chacha@0.3.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/rand_chacha</url>
+        </reference>
+        <reference type="website">
+          <url>https://rust-random.github.io/book</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-random/rand</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>rand_core</name>
+      <version>0.6.4</version>
+      <description>Core random number generator traits and tools for implementation. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/rand_core@0.6.4</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/rand_core</url>
+        </reference>
+        <reference type="website">
+          <url>https://rust-random.github.io/book</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rust-random/rand</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="rustc_version 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>rustc_version</name>
+      <version>0.4.0</version>
+      <description>A library for querying the version of a installed rustc compiler</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/rustc_version@0.4.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/rustc_version/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Kimundi/rustc-version-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="rustversion 1.0.14 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>rustversion</name>
+      <version>1.0.14</version>
+      <description>Conditional compilation according to rustc compiler version</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/rustversion@1.0.14</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/rustversion</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/rustversion</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="ryu 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>ryu</name>
+      <version>1.0.15</version>
+      <description>Fast floating point to string conversion</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR BSL-1.0</expression>
+      </licenses>
+      <purl>pkg:cargo/ryu@1.0.15</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/ryu</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/ryu</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="semver 1.0.22 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>semver</name>
+      <version>1.0.22</version>
+      <description>Parser and evaluator for Cargo's flavor of Semantic Versioning</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/semver@1.0.22</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/semver</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/semver</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde</name>
+      <version>1.0.192</version>
+      <description>A generic serialization/deserialization framework</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/serde@1.0.192</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/serde</url>
+        </reference>
+        <reference type="website">
+          <url>https://serde.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/serde-rs/serde</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde-wasm-bindgen 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde-wasm-bindgen</name>
+      <version>0.5.0</version>
+      <description>Native Serde adapter for wasm-bindgen</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/serde-wasm-bindgen@0.5.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/cloudflare/serde-wasm-bindgen</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde-wasm-bindgen 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde-wasm-bindgen</name>
+      <version>0.6.1</version>
+      <description>Native Serde adapter for wasm-bindgen</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/serde-wasm-bindgen@0.6.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/cloudflare/serde-wasm-bindgen</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde_derive 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde_derive</name>
+      <version>1.0.192</version>
+      <description>Macros 1.1 implementation of #[derive(Serialize, Deserialize)]</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/serde_derive@1.0.192</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://serde.rs/derive.html</url>
+        </reference>
+        <reference type="website">
+          <url>https://serde.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/serde-rs/serde</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde_json</name>
+      <version>1.0.108</version>
+      <description>A JSON serialization file format</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/serde_json@1.0.108</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/serde_json</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/serde-rs/json</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="serde_urlencoded 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>serde_urlencoded</name>
+      <version>0.7.1</version>
+      <description>`x-www-form-urlencoded` meets Serde</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/serde_urlencoded@0.7.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/serde_urlencoded/0.7.1/serde_urlencoded/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/nox/serde_urlencoded</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="slab 0.4.9 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>slab</name>
+      <version>0.4.9</version>
+      <description>Pre-allocated storage for a uniform data type</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/slab@0.4.9</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/slab</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="strsim 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>strsim</name>
+      <version>0.10.0</version>
+      <description>Implementations of string similarity metrics. Includes Hamming, Levenshtein, OSA, Damerau-Levenshtein, Jaro, Jaro-Winkler, and Sørensen-Dice. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/strsim@0.10.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/strsim/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/dguo/strsim-rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dguo/strsim-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="strum 0.19.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>strum</name>
+      <version>0.19.5</version>
+      <description>Helpful macros for working with enums and strings</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/strum@0.19.5</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/strum</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Peternator7/strum</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Peternator7/strum</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="strum_macros 0.19.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>strum_macros</name>
+      <version>0.19.4</version>
+      <description>Helpful macros for working with enums and strings</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/strum_macros@0.19.4</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/strum</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/Peternator7/strum</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/Peternator7/strum</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="subtle 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>subtle</name>
+      <version>2.5.0</version>
+      <description>Pure-Rust traits and utilities for constant-time cryptographic implementations.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>BSD-3-Clause</expression>
+      </licenses>
+      <purl>pkg:cargo/subtle@2.5.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/subtle</url>
+        </reference>
+        <reference type="website">
+          <url>https://dalek.rs/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dalek-cryptography/subtle</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="syn 1.0.109 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>syn</name>
+      <version>1.0.109</version>
+      <description>Parser for Rust source code</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/syn@1.0.109</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/syn</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/syn</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>syn</name>
+      <version>2.0.39</version>
+      <description>Parser for Rust source code</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/syn@2.0.39</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/syn</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/syn</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>thiserror</name>
+      <version>1.0.50</version>
+      <description>derive(Error)</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/thiserror@1.0.50</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/thiserror</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/thiserror</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="thiserror-impl 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>thiserror-impl</name>
+      <version>1.0.50</version>
+      <description>Implementation detail of the `thiserror` crate</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/thiserror-impl@1.0.50</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/thiserror</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tinyvec 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tinyvec</name>
+      <version>1.6.0</version>
+      <description>`tinyvec` provides 100% safe vec-like data structures.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Zlib OR Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tinyvec@1.6.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/Lokathor/tinyvec</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tinyvec_macros 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tinyvec_macros</name>
+      <version>0.1.1</version>
+      <description>Some macros for tiny containers</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0 OR Zlib</expression>
+      </licenses>
+      <purl>pkg:cargo/tinyvec_macros@0.1.1</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/Soveu/tinyvec_macros</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tokio 1.34.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tokio</name>
+      <version>1.34.0</version>
+      <description>An event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tokio@1.34.0</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://tokio.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/tokio</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tokio-stream 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tokio-stream</name>
+      <version>0.1.14</version>
+      <description>Utilities to work with `Stream` and `tokio`. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tokio-stream@0.1.14</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://tokio.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/tokio</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="toml_datetime 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>toml_datetime</name>
+      <version>0.6.5</version>
+      <description>A TOML-compatible datetime type</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/toml_datetime@0.6.5</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/toml-rs/toml</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/toml-rs/toml</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="toml_edit 0.19.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>toml_edit</name>
+      <version>0.19.15</version>
+      <description>Yet another format-preserving TOML parser.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/toml_edit@0.19.15</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/toml-rs/toml</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tracing 0.1.40 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tracing</name>
+      <version>0.1.40</version>
+      <description>Application-level tracing for Rust. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tracing@0.1.40</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://tokio.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/tracing</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tracing-attributes 0.1.27 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tracing-attributes</name>
+      <version>0.1.27</version>
+      <description>Procedural macro attributes for automatically instrumenting functions. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tracing-attributes@0.1.27</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://tokio.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/tracing</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="tracing-core 0.1.32 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>tracing-core</name>
+      <version>0.1.32</version>
+      <description>Core primitives for application-level tracing. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/tracing-core@0.1.32</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://tokio.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/tokio-rs/tracing</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="unicode-bidi 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>unicode-bidi</name>
+      <version>0.3.15</version>
+      <description>Implementation of the Unicode Bidirectional Algorithm</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/unicode-bidi@0.3.15</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/unicode-bidi/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/servo/unicode-bidi</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="unicode-ident 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>unicode-ident</name>
+      <version>1.0.12</version>
+      <description>Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>(MIT OR Apache-2.0) AND Unicode-DFS-2016</expression>
+      </licenses>
+      <purl>pkg:cargo/unicode-ident@1.0.12</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/unicode-ident</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dtolnay/unicode-ident</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="unicode-normalization 0.1.23 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>unicode-normalization</name>
+      <version>0.1.23</version>
+      <description>This crate provides functions for normalization of Unicode strings, including Canonical and Compatible Decomposition and Recomposition, as described in Unicode Standard Annex #15. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/unicode-normalization@0.1.23</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/unicode-normalization/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/unicode-rs/unicode-normalization</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/unicode-rs/unicode-normalization</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="unicode-segmentation 1.10.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>unicode-segmentation</name>
+      <version>1.10.1</version>
+      <description>This crate provides Grapheme Cluster, Word and Sentence boundaries according to Unicode Standard Annex #29 rules. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/unicode-segmentation@1.10.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://unicode-rs.github.io/unicode-segmentation</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/unicode-rs/unicode-segmentation</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/unicode-rs/unicode-segmentation</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="url 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>url</name>
+      <version>2.5.0</version>
+      <description>URL library for Rust, based on the WHATWG URL Standard</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/url@2.5.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/url</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/servo/rust-url</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="utf8parse 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>utf8parse</name>
+      <version>0.2.1</version>
+      <description>Table-driven UTF-8 parser</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/utf8parse@0.2.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/utf8parse/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/alacritty/vte</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="version_check 0.9.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>version_check</name>
+      <version>0.9.4</version>
+      <description>Tiny crate to check the version of the installed/running rustc.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/version_check@0.9.4</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/version_check/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/SergioBenitez/version_check</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen</name>
+      <version>0.2.88</version>
+      <description>Easy support for interacting between JS and Rust. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen@0.2.88</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen-backend 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen-backend</name>
+      <version>0.2.88</version>
+      <description>Backend code generation of the wasm-bindgen tool </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen-backend@0.2.88</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen-backend</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/backend</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen-futures</name>
+      <version>0.4.38</version>
+      <description>Bridging the gap between Rust Futures and JavaScript Promises</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen-futures@0.4.38</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen-futures</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/futures</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen-macro 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen-macro</name>
+      <version>0.2.88</version>
+      <description>Definition of the `#[wasm_bindgen]` attribute, an internal dependency </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen-macro@0.2.88</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen-macro-support 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen-macro-support</name>
+      <version>0.2.88</version>
+      <description>The part of the implementation of the `#[wasm_bindgen]` attribute that is not in the shared backend crate </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen-macro-support@0.2.88</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/macro-support</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-bindgen-shared 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-bindgen-shared</name>
+      <version>0.2.88</version>
+      <description>Shared support between wasm-bindgen and wasm-bindgen cli, an internal dependency. </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-bindgen-shared@0.2.88</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-bindgen-shared</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/</url>
+        </reference>
+        <reference type="other">
+          <url>wasm_bindgen</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/shared</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="wasm-logger 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>wasm-logger</name>
+      <version>0.2.0</version>
+      <description>A logger that sends a message with its Rust source's line and filename to the browser console</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/wasm-logger@0.2.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/wasm-logger</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://gitlab.com/limira-rs/wasm-logger</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>web-sys</name>
+      <version>0.3.65</version>
+      <description>Bindings for all Web APIs, a procedurally generated crate from WebIDL </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/web-sys@0.3.65</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://rustwasm.github.io/wasm-bindgen/api/web_sys/</url>
+        </reference>
+        <reference type="website">
+          <url>https://rustwasm.github.io/wasm-bindgen/web-sys/index.html</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/rustwasm/wasm-bindgen/tree/master/crates/web-sys</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="windows-sys 0.48.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>windows-sys</name>
+      <version>0.48.0</version>
+      <description>Rust for Windows</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/windows-sys@0.48.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/windows-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="windows-targets 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>windows-targets</name>
+      <version>0.48.5</version>
+      <description>Import libs for Windows</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/windows-targets@0.48.5</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/windows-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="windows_x86_64_msvc 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>windows_x86_64_msvc</name>
+      <version>0.48.5</version>
+      <description>Import lib for Windows</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/windows_x86_64_msvc@0.48.5</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/microsoft/windows-rs</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="winnow 0.5.19 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>winnow</name>
+      <version>0.5.19</version>
+      <description>A byte-oriented, zero-copy, parser combinators library</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/winnow@0.5.19</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/winnow-rs/winnow</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="x25519-dalek 2.0.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>x25519-dalek</name>
+      <version>2.0.1</version>
+      <description>X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>BSD-3-Clause</expression>
+      </licenses>
+      <purl>pkg:cargo/x25519-dalek@2.0.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/x25519-dalek</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/dalek-cryptography/curve25519-dalek/tree/main/x25519-dalek</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="yew 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>yew</name>
+      <version>0.21.0</version>
+      <description>A framework for creating reliable and efficient web applications</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/yew@0.21.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/yew/</url>
+        </reference>
+        <reference type="website">
+          <url>https://yew.rs</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/yewstack/yew</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="yew-hooks 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>yew-hooks</name>
+      <version>0.3.1</version>
+      <description>Hooks for the Yew web framework, inspired by react hook libs like streamich/react-use and alibaba/hooks.</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/yew-hooks@0.3.1</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/yew-hooks/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/jetli/yew-hooks</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/jetli/yew-hooks</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="yew-macro 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>yew-macro</name>
+      <version>0.21.0</version>
+      <description>A framework for making client-side single-page apps</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>MIT OR Apache-2.0</expression>
+      </licenses>
+      <purl>pkg:cargo/yew-macro@0.21.0</purl>
+      <externalReferences>
+        <reference type="documentation">
+          <url>https://docs.rs/yew-macro/</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/yewstack/yew</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/yewstack/yew</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="zeroize 1.7.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>zeroize</name>
+      <version>1.7.0</version>
+      <description>Securely clear secrets from memory with a simple trait built on stable Rust primitives which guarantee memory is zeroed using an operation will not be 'optimized away' by the compiler. Uses a portable pure Rust implementation that works everywhere, even WASM! </description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/zeroize@1.7.0</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/RustCrypto/utils/tree/master/zeroize</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="zeroize_derive 1.4.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <name>zeroize_derive</name>
+      <version>1.4.2</version>
+      <description>Custom derive support for zeroize</description>
+      <scope>required</scope>
+      <licenses>
+        <expression>Apache-2.0 OR MIT</expression>
+      </licenses>
+      <purl>pkg:cargo/zeroize_derive@1.4.2</purl>
+      <externalReferences>
+        <reference type="vcs">
+          <url>https://github.com/RustCrypto/utils/tree/master/zeroize/derive</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="anstream 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="anstyle 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="anstyle-parse 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="anstyle-query 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="anstyle-wincon 3.0.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="colorchoice 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="utf8parse 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="anstyle 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="anstyle-parse 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="utf8parse 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="anstyle-query 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="windows-sys 0.48.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="anstyle-wincon 3.0.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="anstyle 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="windows-sys 0.48.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="anymap2 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="autocfg 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="base64 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="bincode 1.3.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="bumpalo 3.14.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="bytes 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="chrono 0.4.31 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="num-traits 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="windows-targets 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="clap 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="clap_builder 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="clap_derive 4.4.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="clap_builder 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="anstream 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="anstyle 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="clap_lex 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="strsim 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="clap_derive 4.4.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="heck 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="clap_lex 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="colorchoice 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="console_error_panic_hook 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="cpufeatures 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="curve25519-dalek 4.1.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="cpufeatures 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="curve25519-dalek-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="platforms 3.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rustc_version 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="subtle 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="zeroize 1.7.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="curve25519-dalek-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="equivalent 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="fnv 1.0.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="form_urlencoded 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="percent-encoding 2.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-io 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-task 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-util 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="futures-io 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="futures-macro 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="futures-task 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="futures-util 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-io 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-macro 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-task 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="memchr 2.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="slab 0.4.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="getrandom 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-console 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-dialogs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-events 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-file 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-history 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-net 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-render 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-storage 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-timers 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-worker 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-console 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-dialogs 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-events 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-file 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-history 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-net 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-render 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-storage 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-timers 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-worker 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-console 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-console 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-dialogs 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-dialogs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-events 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-events 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-file 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-events 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-file 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-events 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-history 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-events 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde-wasm-bindgen 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_urlencoded 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-history 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-events 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde-wasm-bindgen 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_urlencoded 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-net 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-net 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="http 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-net 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-channel 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures-sink 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="http 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-render 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-render 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-storage 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-storage 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-timers 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-timers 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-worker 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="anymap2 0.13.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="bincode 1.3.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-console 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-worker 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="bincode 1.3.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-utils 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-worker-macros 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pinned 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="gloo-worker-macros 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro-crate 1.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="hashbrown 0.14.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="heck 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="unicode-segmentation 1.10.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="heck 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="http 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="bytes 1.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="fnv 1.0.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="itoa 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="idna 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="unicode-bidi 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="unicode-normalization 0.1.23 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="implicit-clone 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="implicit-clone 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="indexmap 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="indexmap 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="equivalent 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="hashbrown 0.14.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="itoa 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="keyexchg 1.0.0 (path+file:///D:/Users/segfo/Documents/vmShare/testCodes/keyxchg)">
+      <dependency ref="base64 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="chrono 0.4.31 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="clap 4.4.8 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-net 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo-storage 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="implicit-clone 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rand 0.8.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_derive 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="strum 0.19.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="strum_macros 0.19.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="url 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-logger 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="x25519-dalek 2.0.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="yew 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="yew-hooks 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="memchr 2.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="num-traits 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="autocfg 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="num_cpus 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="percent-encoding 2.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="pin-project-internal 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="pin-project-internal 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="pin-utils 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="pinned 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rustversion 1.0.14 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="platforms 3.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="ppv-lite86 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="prettyplease 0.2.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="proc-macro-crate 1.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="toml_edit 0.19.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="proc-macro-error 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro-error-attr 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 1.0.109 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="version_check 0.9.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="proc-macro-error-attr 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="version_check 0.9.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="unicode-ident 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="prokio 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="num_cpus 1.16.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project 1.1.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pinned 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tokio 1.34.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tokio-stream 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="rand 0.8.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="rand_chacha 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="rand_chacha 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="ppv-lite86 0.2.17 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="getrandom 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="rustc_version 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="semver 1.0.22 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="rustversion 1.0.14 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="ryu 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="semver 1.0.22 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="serde_derive 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="serde-wasm-bindgen 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="serde-wasm-bindgen 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="serde_derive 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="serde_json 1.0.108 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="itoa 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="ryu 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="serde_urlencoded 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="form_urlencoded 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="itoa 1.0.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="ryu 1.0.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="slab 0.4.9 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="autocfg 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="strsim 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="strum 0.19.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="strum_macros 0.19.4 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="heck 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 1.0.109 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="subtle 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="syn 1.0.109 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="unicode-ident 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="unicode-ident 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="thiserror-impl 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="thiserror-impl 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tinyvec 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="tinyvec_macros 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tinyvec_macros 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="tokio 1.34.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tokio-stream 0.1.14 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="futures-core 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tokio 1.34.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="toml_datetime 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="toml_edit 0.19.15 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="indexmap 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="toml_datetime 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="winnow 0.5.19 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tracing 0.1.40 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="pin-project-lite 0.2.13 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tracing-attributes 0.1.27 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tracing-core 0.1.32 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tracing-attributes 0.1.27 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="tracing-core 0.1.32 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="unicode-bidi 0.3.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="unicode-ident 1.0.12 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="unicode-normalization 0.1.23 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="tinyvec 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="unicode-segmentation 1.10.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="url 2.5.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="form_urlencoded 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="idna 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="percent-encoding 2.3.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="utf8parse 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="version_check 0.9.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-macro 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="wasm-bindgen-backend 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="bumpalo 3.14.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-shared 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="cfg-if 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="wasm-bindgen-macro 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-macro-support 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="wasm-bindgen-macro-support 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-backend 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-shared 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="wasm-bindgen-shared 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="wasm-logger 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="windows-sys 0.48.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="windows-targets 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="windows-targets 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="windows_x86_64_msvc 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="windows_x86_64_msvc 0.48.5 (registry+https://github.com/rust-lang/crates.io-index)" />
+    <dependency ref="winnow 0.5.19 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="memchr 2.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="x25519-dalek 2.0.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="curve25519-dalek 4.1.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rand_core 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="zeroize 1.7.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="yew 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="console_error_panic_hook 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="futures 0.3.29 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="gloo 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="implicit-clone 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="indexmap 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="prokio 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="rustversion 1.0.14 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="slab 0.4.9 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="thiserror 1.0.50 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tokio 1.34.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="tracing 0.1.40 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="yew-macro 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="yew-hooks 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="gloo 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="js-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="log 0.4.20 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="serde 1.0.192 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen 0.2.88 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="wasm-bindgen-futures 0.4.38 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="web-sys 0.3.65 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="yew 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="yew-macro 0.21.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="boolinator 2.4.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="once_cell 1.18.0 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="prettyplease 0.2.15 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro-error 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="zeroize 1.7.0 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="zeroize_derive 1.4.2 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+    <dependency ref="zeroize_derive 1.4.2 (registry+https://github.com/rust-lang/crates.io-index)">
+      <dependency ref="proc-macro2 1.0.69 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="quote 1.0.33 (registry+https://github.com/rust-lang/crates.io-index)" />
+      <dependency ref="syn 2.0.39 (registry+https://github.com/rust-lang/crates.io-index)" />
+    </dependency>
+  </dependencies>
+</bom>

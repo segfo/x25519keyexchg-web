@@ -41,3 +41,9 @@ x25519鍵交換アルゴリズムは以下の4要素で構成されます。
 詳細なアルゴリズムは以下の演習で学ぶネットワーク様の解説を参照してください。
 
 [ECDHE - 演習で学ぶネットワーク](https://net-skills.net/2023/02/26/wd-ecdhe/)
+
+# その他ライセンス
+こちらを参照してください。
+https://github.com/segfo/x25519keyexchg-web/network/dependencies
+
+もしくは[cargo cyclonedxで生成したSBOM](keyexchg.cdx.xml)を参照してください。
