@@ -232,9 +232,7 @@ pub fn KeyExchangeReceiver(props: &AppProps) -> Html {
             </>
         }
     } else {
-        html! {
-            <></>
-        }
+        html! {}
     }
 }
 
