@@ -1,2 +1,3 @@
 [build]
-pattern_script = "<script type=\"module\">import init, * as with_bindings from '{base}{js}';init('{base}{wasm}').then(()=>{window.wasm=with_bindings;var evt = new CustomEvent(\"wasm_loaded\",{});document.querySelector('#terminal').dispatchEvent(evt);});</script>"
+pattern_script = "<script type=\"module\">import init, * as with_bindings from '{base}{js}';init('{base}{wasm}').then(()=>{window.wasm=with_bindings;});</script>"
+# pattern_script = "<script type=\"module\">import init, * as with_bindings from '{base}{js}';init('{base}{wasm}').then(()=>{window.wasm=with_bindings;var evt = new CustomEvent(\"wasm_loaded\",{});document.querySelector('#terminal').dispatchEvent(evt);});</script>"

@@ -37,7 +37,7 @@ impl NavigateState {
 pub fn Navigate(props: &NavigateProps) -> Html {
     let NavigateProps {} = props;
     let state = use_state_eq(|| NavigateState::new());
-    let click = {
+    let _ = {
         let clone_state = state.clone();
         Callback::from(move |e: MouseEvent| {
             if let Some(target) = e.target().and_then(|t| t.dyn_into::<HtmlElement>().ok()) {
@@ -72,15 +72,15 @@ pub fn Navigate(props: &NavigateProps) -> Html {
         }
     });
     html! {
-          <>
-          <nav class="nav-extended light-blue darken-1 ">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">{"ファイル用事前鍵交換サイト"}</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-        //   <li><a href="sass.html">{"hogehoge"}</a></li>
-        </ul>
-      </div>
-    </nav>
+        <>
+            <nav class="nav-extended light-blue darken-1 ">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">{"ファイル用事前鍵交換サイト"}</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    //   <li><a href="sass.html">{"hogehoge"}</a></li>
+                    </ul>
+                </div>
+            </nav>
               // <nav class="nav-extended grey darken-4">
               //   <div class="nav-content">
               //       <ul class="tabs tabs-transparent">
@@ -88,8 +88,8 @@ pub fn Navigate(props: &NavigateProps) -> Html {
               //       </ul>
               //   </div>
               // </nav>
-          </>
-      }
+        </>
+    }
 }
 #[derive(Default, PartialEq, Properties)]
 pub struct AppProps {}

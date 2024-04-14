@@ -17,19 +17,15 @@
 
 <body>
     <script>
-        function init_next() {
+        function Initialize() {
+            // var el = document.querySelector('.tabs');
+            // var instance = M.Tabs.init(el, {});
+            M.updateTextFields();
             const shared_pubkey = document.getElementById("shared_pubkey");
             if(shared_pubkey.value!==""){
                 shared_pubkey.dispatchEvent(new Event("keyup"));
             }
             document.getElementById("pubkey").click();
-        }
-        function Initialize() {
-            var el = document.querySelector('.tabs');
-            var instance = M.Tabs.init(el, {});
-            M.updateTextFields();
-            console.log("init");
-            init_next()
         }
     </script>
 </body>
