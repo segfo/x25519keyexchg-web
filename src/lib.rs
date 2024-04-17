@@ -121,6 +121,19 @@ fn gen_shared_key(pubkey: &str) -> String {
 
 static SECRET: Lazy<StaticSecret> = Lazy::new(|| StaticSecret::random_from_rng(OsRng));
 
+fn get_element_by_id<T>(id: &str) -> Option<T>
+where
+    T: JsCast,
+{
+    let document = web_sys::window().unwrap().document().unwrap();
+
+    if let Some(e) = document.get_element_by_id(id) {
+        Some(e.dyn_into().unwrap())
+    } else {
+        None
+    }
+}
+
 /// 入出力部分
 ///
 use yew_hooks::prelude::*;
@@ -129,22 +142,9 @@ pub fn KeyExchange(props: &AppProps) -> Html {
     let clipboard = use_clipboard();
     let input_pubkey = {
         Callback::from(|_| {
-            let document = web_sys::window().unwrap().document().unwrap();
-            let shared_key: HtmlElement = document
-                .get_element_by_id("shared_key")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
-            let shared_pubkey: HtmlInputElement = document
-                .get_element_by_id("shared_pubkey")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
-            let copy_button: HtmlButtonElement = document
-                .get_element_by_id("copy_shared_key")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
+            let shared_key: HtmlElement = get_element_by_id("shared_key").unwrap();
+            let shared_pubkey: HtmlInputElement = get_element_by_id("shared_pubkey").unwrap();
+            let copy_button: HtmlButtonElement = get_element_by_id("copy_shared_key").unwrap();
             shared_key.set_inner_text(&gen_shared_key(&shared_pubkey.value()));
             copy_button.set_disabled(false);
         })
@@ -152,26 +152,14 @@ pub fn KeyExchange(props: &AppProps) -> Html {
     let save_clipboard = {
         let clipboard = clipboard.clone();
         Callback::from(move |_| {
-            let shared_key: HtmlElement = web_sys::window()
-                .unwrap()
-                .document()
-                .unwrap()
-                .get_element_by_id("shared_key")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
+            let shared_key: HtmlElement = get_element_by_id("shared_key").unwrap();
             clipboard.write_text(shared_key.inner_text());
         })
     };
     let generate_pubkey = {
         let clipboard = clipboard.clone();
         Callback::from(move |_| {
-            let document = web_sys::window().unwrap().document().unwrap();
-            let pubkey: HtmlInputElement = document
-                .get_element_by_id("pubkey")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
+            let pubkey: HtmlInputElement = get_element_by_id("pubkey").unwrap();
             let query = QUERY_STRING;
             let key = gen_public_key();
             if let Some(_) = query.get("copy_url_pubkey") {
@@ -179,8 +167,7 @@ pub fn KeyExchange(props: &AppProps) -> Html {
             } else {
                 clipboard.write_text(key.clone());
             }
-            if let Some(return_key) = document.get_element_by_id("return_key") {
-                let return_key: HtmlElement = return_key.dyn_into().unwrap();
+            if let Some(return_key) = get_element_by_id::<HtmlElement>("return_key") {
                 return_key.set_inner_text(&key);
             }
             pubkey.set_value(&key);
@@ -206,20 +193,13 @@ pub fn KeyExchange(props: &AppProps) -> Html {
 }
 
 #[function_component]
-pub fn KeyExchangeReceiver(props: &AppProps) -> Html {
+pub fn KeyExchangeReceiver(_: &AppProps) -> Html {
     let clipboard = use_clipboard();
     let query = QUERY_STRING;
     let save_clipboard = {
         let clipboard = clipboard.clone();
         Callback::from(move |_| {
-            let shared_key: HtmlElement = web_sys::window()
-                .unwrap()
-                .document()
-                .unwrap()
-                .get_element_by_id("return_key")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
+            let shared_key: HtmlElement = get_element_by_id("return_key").unwrap();
             clipboard.write_text(shared_key.inner_text());
         })
     };
@@ -282,12 +262,7 @@ pub fn ScriptInit(props: &ScriptInitProps) -> Html {
     use_effect_with(sip.id(), move |_| {
         let query = QUERY_STRING;
         if let Some(pubkey) = query.get("pubkey") {
-            let document = web_sys::window().unwrap().document().unwrap();
-            let shared_pubkey: HtmlInputElement = document
-                .get_element_by_id("shared_pubkey")
-                .unwrap()
-                .dyn_into()
-                .unwrap();
+            let shared_pubkey: HtmlInputElement = get_element_by_id("shared_pubkey").unwrap();
             shared_pubkey.set_value(pubkey);
         }
         init();
